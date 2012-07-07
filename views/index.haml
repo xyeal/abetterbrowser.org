@@ -43,9 +43,12 @@
           %a{:href => "/pt-br"}= t.menu.portuguesebr
         %li
           %a{:href => "/ru"}= t.menu.russian
-		%li
+        %li
           %a{:href => "/sr"}= t.menu.polish
-          
+        %li
+          %a{:href => "/zh-hk"}= t.menu.traditional chinese
+        %li
+          %a{:href => "/zh-cn"}= t.menu.simplified chinese 
     .wrapper
       %h3= t.main.intro
       %h1= t.main.headline
@@ -109,6 +112,12 @@
             %a{ :href => "http://mkautzmann.com.br"}= t.credits.portuguesebr
           %li
             %a{ :href => "http://twitter.com/xkeeper"}= t.credits.russian
+
+         %ul.translation.third
+          %li
+            %a{ :href => "http://www.xyeal.com"}= t.credits.traditional chinese
+          %li
+            %a{ :href => "http://www.xyeal.com"}= t.credits.simplified chinese
         %p.contribute
           %a{ :href => "http://twitter.com/ejc", :target => "_blank"}= t.credits.contribute + " @ejc"
 
