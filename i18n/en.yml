@@ -10,6 +10,8 @@ menu:
   portuguesebr: "Brazilian Portuguese"
   russian: "Russian"
   polish: "Polish"
+  trad chinese: "traditional chinese"
+  simp chinese: "simplified chinese"
 
 main:
   title: "It's Time to Choose A Better Browser"
@@ -31,5 +33,7 @@ credits:
   portuguesebr: "Brazilian Portuguese by Matheus R. Kautzmann"
   russian: "Russian by Xkeeper"
   polish: "Polish by Kuba B."
+  trad chinese " traditional chinese by xyeal.com"
+  simp chinese " simplified chinese by xyeal.com"
   site_source: "Code on GitHub"
   contribute: "If you would like to provide additional translations ping me on Twitter"
